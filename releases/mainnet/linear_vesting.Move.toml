@@ -1,0 +1,9 @@
+[package]
+name = "linear_vesting"
+edition = "2024.alpha"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "73dd2c2ba6f9fdb21d7ffde2b50a3f2f0ac39bc1", subdir = "crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+linear_vesting = "0x0"

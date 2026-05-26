@@ -1,6 +1,10 @@
 **/build/
 **/.move/
+dist/
 .DS_Store
+
+# Maintainer-only checklist (not public docs)
+TODO.md
 
 # Local secrets and Sui client config (never commit)
 .env
@@ -8,3 +12,4 @@
 *.key
 **/sui*.yaml
 **/client.yaml
+.cursor/
