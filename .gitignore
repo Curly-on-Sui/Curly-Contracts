@@ -1,0 +1,10 @@
+**/build/
+**/.move/
+.DS_Store
+
+# Local secrets and Sui client config (never commit)
+.env
+.env.*
+*.key
+**/sui*.yaml
+**/client.yaml

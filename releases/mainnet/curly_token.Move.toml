@@ -1,0 +1,9 @@
+[package]
+name = "curly_token"
+edition = "2024.alpha"
+
+[addresses]
+curly = "0x0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", rev = "73dd2c2ba6f9fdb21d7ffde2b50a3f2f0ac39bc1", subdir = "crates/sui-framework/packages/sui-framework" }

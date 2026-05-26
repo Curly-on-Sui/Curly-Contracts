@@ -1,0 +1,10 @@
+[package]
+name = "CetusClmm"
+version = "1.2.0"
+
+[dependencies]
+MoveSTL = { git = "https://github.com/CetusProtocol/move-stl.git", rev = "mainnet-v1.3.0", override = true, published-at = "0xa883e07d89008ce6b35c793903f7cdb3e2f4af404d204d42242cc5c4e48e7e3b" }
+IntegerMate = { git = "https://github.com/CetusProtocol/integer-mate.git", rev = "mainnet-v1.3.0", override = true, published-at = "0x0fc913b52c377d6676760ade9f3cfa270b3f5fc0d518e8c11c0480e1b14d7b1a" }
+
+[addresses]
+cetusclmm = "0x5372d555ac734e272659136c2a0cd3227f9b92de67c80dc11250307268af2db8"
